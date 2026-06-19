@@ -124,7 +124,7 @@ UART/
 ## 🛠 Tools Used
 
 * Verilog HDL
-* Vivado (Optional)
+* Vivado 
 
 ---
 
