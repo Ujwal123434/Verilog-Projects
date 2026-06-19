@@ -12,7 +12,7 @@ UART enables serial communication without requiring a shared clock signal betwee
 
 ```text
 | Start Bit | Data Bits (8-bit) | Stop Bit |
-|     0     |     LSB First     |     1    |
+|     0     |      D0-D7        |     1    |
 ```
 
 Transmission sequence:
