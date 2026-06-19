@@ -109,10 +109,13 @@ Finite State Machine (FSM) based receiver that converts serial data into paralle
 ```text
 UART/
 │
+├── uart_top.v
 ├── baudrate.v
 ├── transmitter.v
 ├── receiver.v
+├── uart_top_tb.v
 ├── waveform.png
+|── schematic.png
 └── README.md
 ```
 
