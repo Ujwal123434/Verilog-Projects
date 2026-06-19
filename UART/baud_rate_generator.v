@@ -3,7 +3,7 @@ module baud_rate_generator(clk,rst,tx_enb,rx_enb);
 
 input clk,rst;
 output tx_enb,rx_enb;
-<<<<<<< HEAD
+
 
 reg [7:0] counter;
 
