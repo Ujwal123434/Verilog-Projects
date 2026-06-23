@@ -116,7 +116,6 @@ Synchronous FIFO/
 
 * Verilog HDL
 * Xilinx Vivado
-* XSim Simulator
 
 ---
 🎯 Applications
