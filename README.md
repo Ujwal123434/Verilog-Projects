@@ -11,7 +11,7 @@ Implements asynchronous serial communication between digital systems.
 * Start and Stop bit handling.
 * Inputs: `clk`, `rst`, `tx_start`, `tx_data`, `rx`
 * Outputs: `tx`, `rx_data`, `rx_done`, `busy`
-* Simulated and verified using Icarus Verilog and GTKWave.
+* Design and simulated using Vivado
 
 ---
 
