@@ -19,12 +19,14 @@ Implements asynchronous serial communication between digital systems.
 
 Buffers data within the same clock domain.
 
-* Simple and clean FIFO architecture.
-* Full and empty flag logic.
-* Inputs: `clk`, `rst`, `wr_en`, `rd_en`, `data_in`
-* Outputs: `data_out`, `full`, `empty`
-* Parameterizable depth and width.
-* Commonly used in pipelines and control paths.
+- 8-bit data storage.
+- 8-depth FIFO memory.
+- Synchronous read and write operations.
+- Read and write pointer control.
+- Full and empty flag logic.
+- Inputs: `clk`, `rst`, `wr_en`, `rd_en`, `data_in`
+- Outputs: `data_out`, `full`, `empty`
+- Designed and verified using Vivado.
 
 ---
 
