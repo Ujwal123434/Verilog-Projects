@@ -105,6 +105,8 @@ Synchronous FIFO/
 ├── top.v
 ├── mod_a.v
 ├── mod_b.v
+├── waveform.png
+├── schematic.png
 └── README.md
 ```
 
