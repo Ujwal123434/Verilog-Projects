@@ -124,7 +124,7 @@ UART/
 ## 🛠 Tools Used
 
 * Verilog HDL
-* Vivado (Optional)
+* Vivado 
 
 ---
 
@@ -135,7 +135,7 @@ UART/
 TX Line
 
 Idle   Start     Data(8-bit)      Stop
- 1 -----0-----10100101------1-----
+ 1 -----0-----0010 1001------1-----
 ```
 
 ---
