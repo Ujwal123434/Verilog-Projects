@@ -18,28 +18,6 @@ A parameterized synchronous FIFO designed in Verilog HDL using a single clock fo
 | FIFO_DEPTH | 8 |
 | DATA_WIDTH | 32 |
 
-## File Structure
-
-```
-syn_fifo.v          // FIFO RTL Design
-tb_syn_fifo.v       // Testbench
-waveform.vcd        // Simulation Waveform
-README.md           // Project Documentation
-```
-
-## Design Flow
-
-```
-Reset
-   ↓
-Write Data
-   ↓
-Check Full Flag
-   ↓
-Read Data
-   ↓
-Check Empty Flag
-```
 
 ## Pointer Logic
 
