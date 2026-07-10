@@ -19,14 +19,14 @@ Implements asynchronous serial communication between digital systems.
 
 Buffers data within the same clock domain.
 
-- 8-bit data storage.
-- 8-depth FIFO memory.
-- Synchronous read and write operations.
-- Read and write pointer control.
-- Full and empty flag logic.
-- Inputs: `clk`, `rst`, `wr_en`, `rd_en`, `data_in`
-- Outputs: `data_out`, `full`, `empty`
-- Designed and verified using Vivado.
+- Designed and implemented a parameterized synchronous FIFO in Verilog HDL.
+- Supports configurable FIFO depth and data width using parameters.
+- Implements synchronous read and write operations using a single clock.
+- Designed read and write pointer logic with circular buffer architecture.
+- Implemented Full and Empty flag generation using pointer comparison.
+- Inputs: clk, rst_n, cs, wr_en, rd_en, data_in
+- Outputs: data_out, full, empty
+- Verified functionality through a self-checking testbench and simulation using Vivado
 
 ---
 
