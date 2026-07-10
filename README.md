@@ -24,8 +24,8 @@ Buffers data within the same clock domain.
 - Implements synchronous read and write operations using a single clock.
 - Designed read and write pointer logic with circular buffer architecture.
 - Implemented Full and Empty flag generation using pointer comparison.
-- Inputs: clk, rst_n, cs, wr_en, rd_en, data_in
-- Outputs: data_out, full, empty
+- Inputs: `clk`, `rst_n`, `cs`, `wr_en`, `rd_en`, `data_in`
+- Outputs: `data_out`, `full`, `empty`
 - Verified functionality through a self-checking testbench and simulation using Vivado
 
 ---
